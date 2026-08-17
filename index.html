@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Vivek ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PAGE 1 -->
+    <section class="page active" id="page1">
+        <div class="box">
+            <div class="emoji">🎁</div>
+            <p class="small">A LITTLE SURPRISE FOR YOU</p>
+            <h1>Hey my cutiee Babyyy
+                <span>❤️</span></h1>
+            <p>I made something special just for you...</p>
+
+            <button onclick="playMusic(); nextPage(2)"></button>
+                Open Your Surprise 💌
+            </button>
+        </div>
+    </section>
+
+
+    <!-- PAGE 2 -->
+    <section class="page" id="page2">
+        <div class="box">
+            <p class="small">JUST A LITTLE THOUGHT...</p>
+
+            <h2>
+                Kabhi kbhi unexpected milna bhi.
+                <span>special bn jata h. ❤️</span>
+            </h2>
+
+            <p>
+                And sometimes you don't even realize
+                when that person becomes such an important
+                part of your world.
+            </p>
+
+            <button onclick="nextPage(3)">
+                Keep Reading ✨
+            </button>
+        </div>
+    </section>
+
+
+    <!-- PAGE 3 -->
+    <section class="page" id="page3">
+        <div class="box">
+
+            <p class="small">THE DAY YOU WERE BORN 🌙</p>
+
+            <h2>
+                <span>31 aUGUST</span>
+            </h2>
+
+            <div class="calendar">
+                <strong>31</strong>
+                <small>AUGUST</small>
+            </div>
+
+            <p>
+                The date that brought one very special
+                person into this world. 🥹
+            </p>
+
+            <button onclick="nextPage(4)">
+                And Today... 🎂
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- PAGE 4 -->
+    <section class="page" id="page4">
+        <div class="box birthday">
+
+            <div class="big">🎂</div>
+
+            <p class="small">THE DAY IS FINALLY HERE</p>
+
+            <h1>
+                Happy Birthday
+                <span>My Babeee❤️</span>
+            </h1>
+
+            <p>
+                May this new year of your life
+                be full of happiness, success and love.
+            </p>
+
+            <button onclick="nextPage(5)">
+                There's More ❤️
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- PAGE 5 -->
+    <section class="page" id="page5">
+        <div class="box">
+
+            <p class="small">WHY YOU?</p>
+
+            <h2>
+                Why You Are
+                <span>Special 🫶</span>
+            </h2>
+
+            <div class="cards">
+
+                <div class="little-card">
+                    😊
+                    <p>Your smile</p>
+                </div>
+
+                <div class="little-card">
+                    🫶
+                    <p>Your presence</p>
+                </div>
+
+                <div class="little-card">
+                    🥹
+                    <p>tumhara pyrr</p>
+                </div>
+
+                <div class="little-card">
+                    ❤️
+                    <p>or toh tum khudhi special ho.</p>
+                </div>
+
+            </div>
+
+            <button onclick="nextPage(6)">
+                One More Thing... 💕
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- PAGE 6 -->
+    <section class="page" id="page6">
+        <div class="box">
+
+            <p class="small">THINGS I LOVE ABOUT YOU</p>
+
+            <h2>
+                It's The
+                <span>Little Things ❤️</span>
+            </h2>
+
+            <div class="list">
+
+                <p>♡ The way you make me smile.</p>
+
+                <p>♡ The random conversations.</p>
+
+                <p>♡ Vo tumhara Sharmana(shyness) tohh hayeee!!.</p>
+
+                <p>♡ Kuch pyare chote chote moments jo memorable bn jate h.</p>
+
+                <p>♡ And all those little things I can't explain.</p>
+
+                <p>♡ or toh tumhara vo gusse mai kbhi kbhi manana.! bs itna hi wrna tumhare bhav bd jayenge..</p>
+
+
+            </div>
+
+            <button onclick="nextPage(7)">
+                Our Memories 📸
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- PAGE 7 -->
+    <section class="page" id="page7">
+        <div class="box">
+
+            <p class="small">OUR LITTLE WORLD</p>
+
+            <h2>
+                Memories
+                <span>We Made 🌙</span>
+            </h2>
+
+            <p>
+                Some moments are too precious to explain.
+                They simply stay in your heart.
+            </p>
+
+            <div class="memory-placeholder">
+                📸
+                <br>
+                <span>Our memories will be here...</span>
+            </div>
+
+            <p class="small">
+                10 special moments are waiting here ❤️
+            </p>
+
+            <button onclick="nextPage(8)">
+                Continue 💕
+            </button>
+
+        </div>
+    </section>
+
+
+    
+   <!-- PAGE 8 -->
+<section class="page" id="page8">
+    <div class="box">
+
+        <p class="small">10 MOMENTS</p>
+
+        <h2>
+            10 Memories,
+            <span>Countless Feelings ❤️</span>
+        </h2>
+
+        <div class="photo-slider">
+
+            <img id="memoryPhoto" src="picture/1.jpg" alt="Memory 1">
+
+            <div class="photo-count">
+                <span id="photoNumber">01</span> / 10
+            </div>
+
+            <div class="photo-buttons">
+                <button onclick="previousPhoto()">←</button>
+                <button onclick="nextPhoto()">→</button>
+            </div>
+
+        </div>
+
+        <p>
+            <p>
+    Every picture holds a little piece of us. ❤️
+</p>
+        </p>
+
+        <button onclick="nextPage(9)">
+            Read Something From My Heart 💌
+        </button>
+
+    </div>
+</section>
+
+    <!-- PAGE 9 -->
+    <section class="page" id="page9">
+        <div class="box">
+
+            <p class="small">A LETTER FOR YOU 💌</p>
+
+            <h2>
+                Dear
+                <span>Vivek ❤️</span>
+            </h2>
+
+            <div class="letter">
+
+                <p>
+                    I may not always have the perfect words,
+                    but today I really wanted to tell you
+                    how special you are to me.
+                </p>
+
+                <p>
+                    Thank you for being a part of my life
+                    and for becoming someone who means
+                    so much to me.
+                </p>
+
+                <p>
+                    We may have good days, bad days,
+                    silly fights and random moments,
+                    but every little thing becomes a part
+                    of our story.
+                </p>
+
+                <p>
+                    On your birthday, I only wish that
+                    you get everything you truly deserve.
+                    Happiness, success, peace and lots of love.
+                </p>
+
+                <p class="signature">
+                    Happy Birthday, Vivek ❤️
+                </p>
+
+            </div>
+
+            <button onclick="nextPage(10)">
+                One Last Surprise... 🎁
+            </button>
+
+        </div>
+    </section>
+
+
+    
+
+
+    <!-- PAGE 10 -->
+    <section class="page" id="page10">
+        <div class="box">
+
+            <div class="gift big">
+                🎁
+            </div>
+
+            <p class="small">
+                BEFORE YOU GO...
+            </p>
+
+            <h2>
+                Make A
+                <span>Wish ✨</span>
+            </h2>
+
+            <p>
+                Close your eyes for a moment...
+                and make your birthday wish. ❤️
+            </p>
+
+            <button onclick="nextPage(11)">
+                My Final Message 💕
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- PAGE 11 -->
+
+<section class="page" id="page11">
+    <div class="box final">
+
+        <div class="big">🎂✨</div>
+
+        <p class="small">
+            ONE LAST THING... ❤️
+        </p>
+
+        <h1>
+            Happy Birthday
+            <span>JAANemaANN ❤️</span>
+        </h1>
+
+        <p>
+            I hope this little surprise made you smile,
+            because seeing you happy is one of my
+            favourite things. 🥹❤️
+        </p>
+
+        <p class="final-line">
+            No matter how many miles are between us,
+            you will always have a special place in my heart. ❤️
+        </p>
+
+        <p class="final-line">
+            Here's to you, your dreams,
+            and all the beautiful moments waiting for us. ✨
+        </p>
+
+        <button onclick="celebrate()">
+            Celebrate Your Day 🎂✨
+        </button>
+
+        <div id="finalMessage"></div>
+
+    </div>
+</section>
+
+    <audio id="birthdayMusic" src="kaise ab rhe.mpeg" loop></audio>
+    <script src="script.js"></script>
+
+</body>
+</html>
